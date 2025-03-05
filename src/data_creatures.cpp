@@ -70,6 +70,7 @@
 //  Example:  For a creature which bites for 1d6, then stings
 //            for 2d4 and loss of dex you would use:
 //                  {1,2,1,6},{15,4,2,4}
+
 //
 //  CMOVE flags:
 //      Movement.  00000001  Move only to attack
@@ -143,7 +144,7 @@
 //                          "notice" the player.
 
 Creature_t creatures_list[MON_MAX_CREATURES] = {
-    {"Filthy Street Urchin",      0x0012000AL, 0x00000000L, 0x2034,     0,  40,  4,   1, 11, 'p', {  1,  4}, { 72, 148,   0,   0},   0},
+    {"The Conjuring",      0x0012000AL, 0x00000000L, 0x2034,     0,  40,  4,   1, 11, 'p', {  10,  8}, { 72, 148,   15,   22},   0},
     {"Blubbering Idiot",          0x0012000AL, 0x00000000L, 0x2030,     0,   0,  6,   1, 11, 'p', {  1,  2}, { 79,   0,   0,   0},   0},
     {"Pitiful-Looking Beggar",    0x0012000AL, 0x00000000L, 0x2030,     0,  40, 10,   1, 11, 'p', {  1,  4}, { 72,   0,   0,   0},   0},
     {"Mangy-Looking Leper",       0x0012000AL, 0x00000000L, 0x2030,     0,  50, 10,   1, 11, 'p', {  1,  1}, { 72,   0,   0,   0},   0},
